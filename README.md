@@ -25,6 +25,7 @@ library(UcColoR)
 mCol <- ucPal(palette = "Let there be light", reverse = FALSE)(100)
 show_col(mCol, labels = FALSE, borders = NA)
 ```
+![](man/figures/fig_01.png)
 
 ## Sun Rise
 ```{r}
