@@ -5,8 +5,10 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 [![Last-changedate](https://img.shields.io/badge/last%20change-2023--02--04-yellowgreen.svg)](/commits/master)
 
 ---
-title: "Untitled"
-output: html_document
+title: "UcColor"
+output:
+  md_document:
+    variant: markdown_github
 date: '2023-02-04'
 ---
 
