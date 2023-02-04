@@ -32,18 +32,21 @@ show_col(mCol, labels = FALSE, borders = NA)
 mCol <- ucPal(palette = "Sun Rise", reverse = TRUE)(100)
 show_col(mCol, labels = FALSE, borders = NA)
 ```
+![](man/figures/fig_02.png)
 
 ## Left my Blues in San Francisco
 ```{r}
 mCol <- ucPal(palette = "Left my Blues in SF", reverse = FALSE)(100)
 show_col(mCol, labels = FALSE, borders = NA)
 ```
+![](man/figures/fig_03.png)
 
 ## Color me Gold
 ```{r}
 mCol <- ucPal(palette = "Color me Gold", reverse = FALSE)(100)
 show_col(mCol, labels = FALSE, borders = NA)
 ```
+![](man/figures/fig_04.png)
 
 # Use with ggplot
 ```{r}
@@ -53,6 +56,7 @@ ggplot(data = mpg) +
   scale_color_ucCol(palette = "Let there be light") +
   theme_bw()
 ```
+![](man/figures/fig_05.png)
 
 ## Manual colors
 ```{r, message=FALSE}
@@ -64,4 +68,4 @@ ggplot() +
   scale_color_manual(values = c(ucColor()[[1]], ucColor()[[9]])) +
   theme_bw()
 ```
-
+![](man/figures/fig_06.png)
