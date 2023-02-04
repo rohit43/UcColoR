@@ -19,7 +19,7 @@ An R package of colors inspired from incredible University of California color s
 ## Palettes
 
 ## Let there be light
-```{r}
+```{r, eval = TRUE}
 library(scales)
 library(UcColoR)
 mCol <- ucPal(palette = "Let there be light", reverse = FALSE)(100)
